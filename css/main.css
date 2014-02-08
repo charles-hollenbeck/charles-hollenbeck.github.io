@@ -23,7 +23,7 @@ footer p a {
 	color: rgb(0, 163, 255);
 	text-decoration: none;
 }
-section {
+#container {
 	margin: 20px auto;
 	box-shadow: 0 0 2px 0 #888;
 }
@@ -31,20 +31,26 @@ article {
 	margin: 0 auto;
 	border-bottom: 1px ridge #D5D5D5;
 }
+article header{
+	border-bottom: 1px ridge #D5D5D5;
+}
+article section {
+	padding: 15px;
+}
 article h4 {
 	padding: 0 10px;
 	margin: 0 auto;
 }
-section article:nth-child(even){
+#container article:nth-child(even){
 	background-color: #E5E5E5;
 }
-section article:nth-child(odd){
+#container article:nth-child(odd){
 	background-color: #F5F5F5;
 }
-section article:nth-child(even):hover{
+#container article:nth-child(even):hover{
 	background-color: #E0E0E0;
 }
-section article:nth-child(odd):hover{
+#container article:nth-child(odd):hover{
 	background-color: #F0F0F0;
 }
 article h4, article aside{

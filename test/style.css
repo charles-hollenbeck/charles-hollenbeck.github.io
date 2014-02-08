@@ -31,6 +31,12 @@ article {
 	margin: 0 auto;
 	border-bottom: 1px ridge #D5D5D5;
 }
+article header{
+	border-bottom: 1px ridge #D5D5D5;
+}
+article section {
+	padding: 15px;
+}
 article h4 {
 	padding: 0 10px;
 	margin: 0 auto;

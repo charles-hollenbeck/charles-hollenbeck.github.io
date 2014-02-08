@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: Home
 ---
 
 {% for post in site.posts %}
-<article>
+<article class="multi">
 	<aside>{{ post.date | date_to_string }}</aside>
 	<h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
 </article>

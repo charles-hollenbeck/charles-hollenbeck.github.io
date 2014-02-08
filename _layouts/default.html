@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>{{ page.title }}</title>
+		<title>{{ site.name }} | {{ page.title }}</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" type="text/css" href="/css/main.css" />
 		<link rel="stylesheet" type="text/css" href="/css/syntax-old.css" />
@@ -9,14 +9,14 @@
 	<body>
 		<div id="wrapper">
 			<header>
-				<h1 id="brand">{{ site.name}}</h1>
+				<h1 id="brand">{{ site.name }}</h1>
 			</header>
 
 			<div id="container">
 				{{ content }}
 			</div>
 			<footer>
-				<p>&copy; Charles Hollenbeck <a href="#github">@github</a></p>
+				<p>&copy; Charles Hollenbeck <a href="http://github.com/charles-hollenbeck">@github</a></p>
 			</footer>
 		</div>
 	</body>

@@ -23,10 +23,10 @@ a {
 	color: #8493CA;
 	text-decoration: none;
 }
-a:visited {
+a:visited, a:link  {
 	color: #8882BE;
 }
-a:hover, a:link {
+a:hover {
 	color: rgb(0, 163, 255);
 }
 #container {

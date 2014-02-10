@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Hacking PHP Classes"
+title:  "Nesting PHP Classes"
 date:   2014-02-08
 categories: php
 ---

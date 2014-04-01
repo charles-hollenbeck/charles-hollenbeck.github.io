@@ -1,4 +1,6 @@
 name: Minimalistic Coding
+author: Charles Hollenbeck
+github_username: charles-hollenbeck
 markdown: redcarpet
 pygments: true
 timezone: America/New_York
